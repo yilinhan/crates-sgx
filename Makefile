@@ -1,5 +1,5 @@
 all:
-	@cargo-vendor vendor --relative-path > config
+	@cargo-vendor vendor --no-merge-sources --relative-path > config
 	@grep -E "checksum.*mesalock|checksum.*crates" Cargo.lock | cut -d ' ' -f2,3 | column -t > README.txt
 	@./lic.py | sort > licenses.txt
 test:

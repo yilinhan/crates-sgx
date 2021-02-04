@@ -36,13 +36,13 @@ sgx_unwind                     = { git = "https://github.com/apache/teaclave-sgx
 sgx_urts                       = { git = "https://github.com/apache/teaclave-sgx-sdk", rev = "v1.1.3" }
 
 # SGX crates
-adler32          = { git = "https://github.com/mesalock-linux/adler32-rs-sgx"}
-aho-corasick     = { git = "https://github.com/mesalock-linux/aho-corasick-sgx" }
-anyhow           = { git = "https://github.com/mesalock-linux/anyhow-sgx" }
+adler32          = { git = "https://github.com/mesalock-linux/adler32-rs-sgx", tag = "sgx_1.1.3" }
+aho-corasick     = { git = "https://github.com/mesalock-linux/aho-corasick-sgx", tag = "sgx_1.1.3"  }
+anyhow           = { git = "https://github.com/mesalock-linux/anyhow-sgx", tag = "sgx_1.1.3"  }
 array_tool       = { git = "https://github.com/mesalock-linux/array_tool-sgx", tag = "sgx_1.1.3" }
-base64           = { git = "https://github.com/mesalock-linux/rust-base64-sgx" }
+base64           = { git = "https://github.com/mesalock-linux/rust-base64-sgx", tag = "sgx_1.1.3"  }
 bincode          = { git = "https://github.com/mesalock-linux/bincode-sgx", tag = "v1.1.3" }
-byteorder        = { git = "https://github.com/mesalock-linux/byteorder-sgx" }
+byteorder        = { git = "https://github.com/mesalock-linux/byteorder-sgx", tag = "sgx_1.1.3"  }
 bytes            = { git = "https://github.com/mesalock-linux/bytes-sgx", tag = "sgx_1.1.3" }
 chrono           = { git = "https://github.com/mesalock-linux/chrono-sgx", tag = "sgx_1.1.3" }
 color_quant      = { git = "https://github.com/mesalock-linux/color_quant-sgx", tag = "sgx_1.1.3" }
@@ -84,7 +84,7 @@ regex            = { git = "https://github.com/mesalock-linux/regex-sgx", tag = 
 ring             = { git = "https://github.com/mesalock-linux/ring-sgx", tag = "v0.16.5" }
 rulinalg         = { git = "https://github.com/mesalock-linux/rulinalg-sgx", tag = "sgx_1.1.3" }
 rustface         = { git = "https://github.com/yilinhan/rustface-sgx", branch = "v1.1.3" }
-rustls           = { git = "https://github.com/mesalock-linux/rustls", branch = "mesalock_sgx-client-cert-verifier-patch" }
+rustls           = { git = "https://github.com/yilinhan/rustls", branch = "mesalock_sgx-client-cert-verifier-patch_v1.1.3" }
 rusty-machine    = { git = "https://github.com/mesalock-linux/rusty-machine-sgx", tag = "sgx_1.1.3" }
 sct              = { git = "https://github.com/mesalock-linux/sct.rs", branch = "mesalock_sgx" }
 serde            = { git = "https://github.com/mesalock-linux/serde-sgx", tag = "sgx_1.1.3" }
