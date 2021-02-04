@@ -1,0 +1,741 @@
+[source.crates-io]
+replace-with = "vendor+crates-io"
+
+[source."https://github.com/apache/teaclave-sgx-sdk"]
+git = "https://github.com/apache/teaclave-sgx-sdk"
+rev = "v1.1.3"
+replace-with = "vendor+https://github.com/apache/teaclave-sgx-sdk"
+
+[source."https://github.com/mesalock-linux/adler32-rs-sgx"]
+git = "https://github.com/mesalock-linux/adler32-rs-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/adler32-rs-sgx"
+
+[source."https://github.com/mesalock-linux/aho-corasick-sgx"]
+git = "https://github.com/mesalock-linux/aho-corasick-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/aho-corasick-sgx"
+
+[source."https://github.com/mesalock-linux/anyhow-sgx"]
+git = "https://github.com/mesalock-linux/anyhow-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/anyhow-sgx"
+
+[source."https://github.com/mesalock-linux/array_tool-sgx"]
+git = "https://github.com/mesalock-linux/array_tool-sgx"
+tag = "sgx_1.1.3"
+replace-with = "vendor+https://github.com/mesalock-linux/array_tool-sgx"
+
+[source."https://github.com/mesalock-linux/bincode-sgx"]
+git = "https://github.com/mesalock-linux/bincode-sgx"
+tag = "v1.1.3"
+replace-with = "vendor+https://github.com/mesalock-linux/bincode-sgx"
+
+[source."https://github.com/mesalock-linux/byteorder-sgx"]
+git = "https://github.com/mesalock-linux/byteorder-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/byteorder-sgx"
+
+[source."https://github.com/mesalock-linux/bytes-sgx"]
+git = "https://github.com/mesalock-linux/bytes-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/bytes-sgx"
+
+[source."https://github.com/mesalock-linux/cbor-sgx"]
+git = "https://github.com/mesalock-linux/cbor-sgx"
+tag = "sgx_1.1.3"
+replace-with = "vendor+https://github.com/mesalock-linux/cbor-sgx"
+
+[source."https://github.com/mesalock-linux/chrono-sgx"]
+git = "https://github.com/mesalock-linux/chrono-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/chrono-sgx"
+
+[source."https://github.com/mesalock-linux/color_quant-sgx"]
+git = "https://github.com/mesalock-linux/color_quant-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/color_quant-sgx"
+
+[source."https://github.com/mesalock-linux/crc-rs-sgx"]
+git = "https://github.com/mesalock-linux/crc-rs-sgx"
+tag = "sgx_1.1.3"
+replace-with = "vendor+https://github.com/mesalock-linux/crc-rs-sgx"
+
+[source."https://github.com/mesalock-linux/cryptocorrosion-sgx"]
+git = "https://github.com/mesalock-linux/cryptocorrosion-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/cryptocorrosion-sgx"
+
+[source."https://github.com/mesalock-linux/deflate-rs-sgx"]
+git = "https://github.com/mesalock-linux/deflate-rs-sgx"
+branch = "dev"
+replace-with = "vendor+https://github.com/mesalock-linux/deflate-rs-sgx"
+
+[source."https://github.com/mesalock-linux/env_logger-sgx"]
+git = "https://github.com/mesalock-linux/env_logger-sgx"
+tag = "sgx_1.1.3"
+replace-with = "vendor+https://github.com/mesalock-linux/env_logger-sgx"
+
+[source."https://github.com/mesalock-linux/erased-serde-sgx"]
+git = "https://github.com/mesalock-linux/erased-serde-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/erased-serde-sgx"
+
+[source."https://github.com/mesalock-linux/gbdt-rs"]
+git = "https://github.com/mesalock-linux/gbdt-rs"
+branch = "mesatee-sgx"
+replace-with = "vendor+https://github.com/mesalock-linux/gbdt-rs"
+
+[source."https://github.com/mesalock-linux/getrandom-sgx"]
+git = "https://github.com/mesalock-linux/getrandom-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/getrandom-sgx"
+
+[source."https://github.com/mesalock-linux/gzip-header-sgx"]
+git = "https://github.com/mesalock-linux/gzip-header-sgx"
+tag = "sgx_1.1.3"
+replace-with = "vendor+https://github.com/mesalock-linux/gzip-header-sgx"
+
+[source."https://github.com/mesalock-linux/hashes-sgx"]
+git = "https://github.com/mesalock-linux/hashes-sgx"
+tag = "sgx_1.1.3"
+replace-with = "vendor+https://github.com/mesalock-linux/hashes-sgx"
+
+[source."https://github.com/mesalock-linux/heapsize-sgx"]
+git = "https://github.com/mesalock-linux/heapsize-sgx"
+tag = "sgx_1.1.3"
+replace-with = "vendor+https://github.com/mesalock-linux/heapsize-sgx"
+
+[source."https://github.com/mesalock-linux/http-sgx"]
+git = "https://github.com/mesalock-linux/http-sgx"
+tag = "sgx_1.1.3"
+replace-with = "vendor+https://github.com/mesalock-linux/http-sgx"
+
+[source."https://github.com/mesalock-linux/humantime-sgx"]
+git = "https://github.com/mesalock-linux/humantime-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/humantime-sgx"
+
+[source."https://github.com/mesalock-linux/image-gif-sgx"]
+git = "https://github.com/mesalock-linux/image-gif-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/image-gif-sgx"
+
+[source."https://github.com/mesalock-linux/image-png-sgx"]
+git = "https://github.com/mesalock-linux/image-png-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/image-png-sgx"
+
+[source."https://github.com/mesalock-linux/image-sgx"]
+git = "https://github.com/mesalock-linux/image-sgx"
+tag = "sgx_1.1.3"
+replace-with = "vendor+https://github.com/mesalock-linux/image-sgx"
+
+[source."https://github.com/mesalock-linux/image-tiff-sgx"]
+git = "https://github.com/mesalock-linux/image-tiff-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/image-tiff-sgx"
+
+[source."https://github.com/mesalock-linux/inflate-sgx"]
+git = "https://github.com/mesalock-linux/inflate-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/inflate-sgx"
+
+[source."https://github.com/mesalock-linux/integer-encoding-rs-sgx"]
+git = "https://github.com/mesalock-linux/integer-encoding-rs-sgx"
+tag = "sgx_1.1.3"
+replace-with = "vendor+https://github.com/mesalock-linux/integer-encoding-rs-sgx"
+
+[source."https://github.com/mesalock-linux/inventory-sgx"]
+git = "https://github.com/mesalock-linux/inventory-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/inventory-sgx"
+
+[source."https://github.com/mesalock-linux/iovec-sgx"]
+git = "https://github.com/mesalock-linux/iovec-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/iovec-sgx"
+
+[source."https://github.com/mesalock-linux/itoa-sgx"]
+git = "https://github.com/mesalock-linux/itoa-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/itoa-sgx"
+
+[source."https://github.com/mesalock-linux/jpeg-decoder-sgx"]
+git = "https://github.com/mesalock-linux/jpeg-decoder-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/jpeg-decoder-sgx"
+
+[source."https://github.com/mesalock-linux/jsonwebtoken-sgx"]
+git = "https://github.com/mesalock-linux/jsonwebtoken-sgx"
+tag = "sgx_1.1.3"
+replace-with = "vendor+https://github.com/mesalock-linux/jsonwebtoken-sgx"
+
+[source."https://github.com/mesalock-linux/linked-hash-map-sgx"]
+git = "https://github.com/mesalock-linux/linked-hash-map-sgx"
+tag = "sgx_1.1.3"
+replace-with = "vendor+https://github.com/mesalock-linux/linked-hash-map-sgx"
+
+[source."https://github.com/mesalock-linux/log-sgx"]
+git = "https://github.com/mesalock-linux/log-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/log-sgx"
+
+[source."https://github.com/mesalock-linux/lzw-sgx"]
+git = "https://github.com/mesalock-linux/lzw-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/lzw-sgx"
+
+[source."https://github.com/mesalock-linux/matrixmultiply-sgx"]
+git = "https://github.com/mesalock-linux/matrixmultiply-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/matrixmultiply-sgx"
+
+[source."https://github.com/mesalock-linux/md5-sgx"]
+git = "https://github.com/mesalock-linux/md5-sgx"
+tag = "sgx_1.1.3"
+replace-with = "vendor+https://github.com/mesalock-linux/md5-sgx"
+
+[source."https://github.com/mesalock-linux/miniz_oxide-sgx"]
+git = "https://github.com/mesalock-linux/miniz_oxide-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/miniz_oxide-sgx"
+
+[source."https://github.com/mesalock-linux/mio-sgx"]
+git = "https://github.com/mesalock-linux/mio-sgx"
+tag = "sgx_1.1.3"
+replace-with = "vendor+https://github.com/mesalock-linux/mio-sgx"
+
+[source."https://github.com/mesalock-linux/net2-rs-sgx"]
+git = "https://github.com/mesalock-linux/net2-rs-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/net2-rs-sgx"
+
+[source."https://github.com/mesalock-linux/num-bigint-sgx"]
+git = "https://github.com/mesalock-linux/num-bigint-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/num-bigint-sgx"
+
+[source."https://github.com/mesalock-linux/num-complex-sgx"]
+git = "https://github.com/mesalock-linux/num-complex-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/num-complex-sgx"
+
+[source."https://github.com/mesalock-linux/num-integer-sgx"]
+git = "https://github.com/mesalock-linux/num-integer-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/num-integer-sgx"
+
+[source."https://github.com/mesalock-linux/num-iter-sgx"]
+git = "https://github.com/mesalock-linux/num-iter-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/num-iter-sgx"
+
+[source."https://github.com/mesalock-linux/num-rational-sgx"]
+git = "https://github.com/mesalock-linux/num-rational-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/num-rational-sgx"
+
+[source."https://github.com/mesalock-linux/num-sgx"]
+git = "https://github.com/mesalock-linux/num-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/num-sgx"
+
+[source."https://github.com/mesalock-linux/num-traits-sgx"]
+git = "https://github.com/mesalock-linux/num-traits-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/num-traits-sgx"
+
+[source."https://github.com/mesalock-linux/parity-wasm-sgx"]
+git = "https://github.com/mesalock-linux/parity-wasm-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/parity-wasm-sgx"
+
+[source."https://github.com/mesalock-linux/prost-sgx"]
+git = "https://github.com/mesalock-linux/prost-sgx"
+tag = "sgx_1.1.3"
+replace-with = "vendor+https://github.com/mesalock-linux/prost-sgx"
+
+[source."https://github.com/mesalock-linux/quick-error-sgx"]
+git = "https://github.com/mesalock-linux/quick-error-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/quick-error-sgx"
+
+[source."https://github.com/mesalock-linux/rand-sgx"]
+git = "https://github.com/mesalock-linux/rand-sgx"
+tag = "v0.7.3_sgx1.1.3"
+replace-with = "vendor+https://github.com/mesalock-linux/rand-sgx"
+
+[source."https://github.com/mesalock-linux/regex-sgx"]
+git = "https://github.com/mesalock-linux/regex-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/regex-sgx"
+
+[source."https://github.com/mesalock-linux/ring-sgx"]
+git = "https://github.com/mesalock-linux/ring-sgx"
+tag = "v0.16.5"
+replace-with = "vendor+https://github.com/mesalock-linux/ring-sgx"
+
+[source."https://github.com/mesalock-linux/rulinalg-sgx"]
+git = "https://github.com/mesalock-linux/rulinalg-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/rulinalg-sgx"
+
+[source."https://github.com/mesalock-linux/rust-base64-sgx"]
+git = "https://github.com/mesalock-linux/rust-base64-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/rust-base64-sgx"
+
+[source."https://github.com/mesalock-linux/rust-crc32fast-sgx"]
+git = "https://github.com/mesalock-linux/rust-crc32fast-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/rust-crc32fast-sgx"
+
+[source."https://github.com/mesalock-linux/rust-fnv-sgx"]
+git = "https://github.com/mesalock-linux/rust-fnv-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/rust-fnv-sgx"
+
+[source."https://github.com/mesalock-linux/rust-hex-sgx"]
+git = "https://github.com/mesalock-linux/rust-hex-sgx"
+tag = "sgx_1.1.3"
+replace-with = "vendor+https://github.com/mesalock-linux/rust-hex-sgx"
+
+[source."https://github.com/mesalock-linux/rust-memchr-sgx"]
+git = "https://github.com/mesalock-linux/rust-memchr-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/rust-memchr-sgx"
+
+[source."https://github.com/mesalock-linux/rust-sha1-sgx"]
+git = "https://github.com/mesalock-linux/rust-sha1-sgx"
+tag = "sgx_1.1.3"
+replace-with = "vendor+https://github.com/mesalock-linux/rust-sha1-sgx"
+
+[source."https://github.com/mesalock-linux/rust-smallvec-sgx"]
+git = "https://github.com/mesalock-linux/rust-smallvec-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/rust-smallvec-sgx"
+
+[source."https://github.com/mesalock-linux/rust-snappy-sgx"]
+git = "https://github.com/mesalock-linux/rust-snappy-sgx"
+tag = "sgx_1.1.3"
+replace-with = "vendor+https://github.com/mesalock-linux/rust-snappy-sgx"
+
+[source."https://github.com/mesalock-linux/rust-std-candidates-sgx"]
+git = "https://github.com/mesalock-linux/rust-std-candidates-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/rust-std-candidates-sgx"
+
+[source."https://github.com/mesalock-linux/rust-threadpool-sgx"]
+git = "https://github.com/mesalock-linux/rust-threadpool-sgx"
+tag = "sgx_1.1.3"
+replace-with = "vendor+https://github.com/mesalock-linux/rust-threadpool-sgx"
+
+[source."https://github.com/mesalock-linux/rust-url-sgx"]
+git = "https://github.com/mesalock-linux/rust-url-sgx"
+tag = "sgx_1.1.3"
+replace-with = "vendor+https://github.com/mesalock-linux/rust-url-sgx"
+
+[source."https://github.com/mesalock-linux/rust_rdrand-sgx"]
+git = "https://github.com/mesalock-linux/rust_rdrand-sgx"
+tag = "sgx_1.1.3"
+replace-with = "vendor+https://github.com/mesalock-linux/rust_rdrand-sgx"
+
+[source."https://github.com/mesalock-linux/rustcrypto-traits-sgx"]
+git = "https://github.com/mesalock-linux/rustcrypto-traits-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/rustcrypto-traits-sgx"
+
+[source."https://github.com/mesalock-linux/rustcrypto-utils-sgx"]
+git = "https://github.com/mesalock-linux/rustcrypto-utils-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/rustcrypto-utils-sgx"
+
+[source."https://github.com/mesalock-linux/rusty-machine-sgx"]
+git = "https://github.com/mesalock-linux/rusty-machine-sgx"
+tag = "sgx_1.1.3"
+replace-with = "vendor+https://github.com/mesalock-linux/rusty-machine-sgx"
+
+[source."https://github.com/mesalock-linux/sct.rs"]
+git = "https://github.com/mesalock-linux/sct.rs"
+branch = "mesalock_sgx"
+replace-with = "vendor+https://github.com/mesalock-linux/sct.rs"
+
+[source."https://github.com/mesalock-linux/serde-big-array-sgx"]
+git = "https://github.com/mesalock-linux/serde-big-array-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/serde-big-array-sgx"
+
+[source."https://github.com/mesalock-linux/serde-json-sgx"]
+git = "https://github.com/mesalock-linux/serde-json-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/serde-json-sgx"
+
+[source."https://github.com/mesalock-linux/serde-sgx"]
+git = "https://github.com/mesalock-linux/serde-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/serde-sgx"
+
+[source."https://github.com/mesalock-linux/sgx-fake-profiler-builtins"]
+git = "https://github.com/mesalock-linux/sgx-fake-profiler-builtins"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/sgx-fake-profiler-builtins"
+
+[source."https://github.com/mesalock-linux/slab-sgx"]
+git = "https://github.com/mesalock-linux/slab-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/slab-sgx"
+
+[source."https://github.com/mesalock-linux/termcolor-sgx"]
+git = "https://github.com/mesalock-linux/termcolor-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/termcolor-sgx"
+
+[source."https://github.com/mesalock-linux/thiserror-sgx"]
+git = "https://github.com/mesalock-linux/thiserror-sgx"
+tag = "sgx_1.1.3"
+replace-with = "vendor+https://github.com/mesalock-linux/thiserror-sgx"
+
+[source."https://github.com/mesalock-linux/thread_local-rs-sgx"]
+git = "https://github.com/mesalock-linux/thread_local-rs-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/thread_local-rs-sgx"
+
+[source."https://github.com/mesalock-linux/toml-rs-sgx"]
+git = "https://github.com/mesalock-linux/toml-rs-sgx"
+tag = "sgx_1.1.3"
+replace-with = "vendor+https://github.com/mesalock-linux/toml-rs-sgx"
+
+[source."https://github.com/mesalock-linux/typetag-sgx"]
+git = "https://github.com/mesalock-linux/typetag-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/typetag-sgx"
+
+[source."https://github.com/mesalock-linux/unicode-bidi-sgx"]
+git = "https://github.com/mesalock-linux/unicode-bidi-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/unicode-bidi-sgx"
+
+[source."https://github.com/mesalock-linux/unicode-normalization-sgx"]
+git = "https://github.com/mesalock-linux/unicode-normalization-sgx"
+branch = "master"
+replace-with = "vendor+https://github.com/mesalock-linux/unicode-normalization-sgx"
+
+[source."https://github.com/mesalock-linux/uuid-sgx"]
+git = "https://github.com/mesalock-linux/uuid-sgx"
+tag = "sgx_1.1.3"
+replace-with = "vendor+https://github.com/mesalock-linux/uuid-sgx"
+
+[source."https://github.com/mesalock-linux/wabt-rs-sgx"]
+git = "https://github.com/mesalock-linux/wabt-rs-sgx"
+branch = "v0.9-core"
+replace-with = "vendor+https://github.com/mesalock-linux/wabt-rs-sgx"
+
+[source."https://github.com/mesalock-linux/wasmi-sgx"]
+git = "https://github.com/mesalock-linux/wasmi-sgx"
+tag = "sgx_1.1.3"
+replace-with = "vendor+https://github.com/mesalock-linux/wasmi-sgx"
+
+[source."https://github.com/mesalock-linux/webpki"]
+git = "https://github.com/mesalock-linux/webpki"
+branch = "mesalock_sgx"
+replace-with = "vendor+https://github.com/mesalock-linux/webpki"
+
+[source."https://github.com/mesalock-linux/webpki-roots"]
+git = "https://github.com/mesalock-linux/webpki-roots"
+branch = "mesalock_sgx"
+replace-with = "vendor+https://github.com/mesalock-linux/webpki-roots"
+
+[source."https://github.com/mesalock-linux/yasna.rs-sgx"]
+git = "https://github.com/mesalock-linux/yasna.rs-sgx"
+tag = "sgx_1.1.3"
+replace-with = "vendor+https://github.com/mesalock-linux/yasna.rs-sgx"
+
+[source."https://github.com/yilinhan/rustface-sgx"]
+git = "https://github.com/yilinhan/rustface-sgx"
+branch = "v1.1.3"
+replace-with = "vendor+https://github.com/yilinhan/rustface-sgx"
+
+[source."https://github.com/yilinhan/rustls"]
+git = "https://github.com/yilinhan/rustls"
+branch = "mesalock_sgx-client-cert-verifier-patch_v1.1.3"
+replace-with = "vendor+https://github.com/yilinhan/rustls"
+
+[source."vendor+crates-io"]
+directory = "vendor/registry-40351f815f426200"
+
+[source."vendor+https://github.com/apache/teaclave-sgx-sdk"]
+directory = "vendor/git-9736288873ae7a00"
+
+[source."vendor+https://github.com/mesalock-linux/adler32-rs-sgx"]
+directory = "vendor/git-31ab6965f3fb7f00"
+
+[source."vendor+https://github.com/mesalock-linux/aho-corasick-sgx"]
+directory = "vendor/git-7c4bf9bf7f2e5c00"
+
+[source."vendor+https://github.com/mesalock-linux/anyhow-sgx"]
+directory = "vendor/git-b6a0bc721002a400"
+
+[source."vendor+https://github.com/mesalock-linux/array_tool-sgx"]
+directory = "vendor/git-426d163df185b700"
+
+[source."vendor+https://github.com/mesalock-linux/bincode-sgx"]
+directory = "vendor/git-a6439de171dfb900"
+
+[source."vendor+https://github.com/mesalock-linux/byteorder-sgx"]
+directory = "vendor/git-360bdfde8879a500"
+
+[source."vendor+https://github.com/mesalock-linux/bytes-sgx"]
+directory = "vendor/git-545524450b941d00"
+
+[source."vendor+https://github.com/mesalock-linux/cbor-sgx"]
+directory = "vendor/git-f67e7abc1ab84900"
+
+[source."vendor+https://github.com/mesalock-linux/chrono-sgx"]
+directory = "vendor/git-7f715c514f032d00"
+
+[source."vendor+https://github.com/mesalock-linux/color_quant-sgx"]
+directory = "vendor/git-4b73cf0e1f7ca500"
+
+[source."vendor+https://github.com/mesalock-linux/crc-rs-sgx"]
+directory = "vendor/git-2fb91d2b1daef700"
+
+[source."vendor+https://github.com/mesalock-linux/cryptocorrosion-sgx"]
+directory = "vendor/git-599eac2174ea1000"
+
+[source."vendor+https://github.com/mesalock-linux/deflate-rs-sgx"]
+directory = "vendor/git-e842ae85e8a77b00"
+
+[source."vendor+https://github.com/mesalock-linux/env_logger-sgx"]
+directory = "vendor/git-4706dca1cd865700"
+
+[source."vendor+https://github.com/mesalock-linux/erased-serde-sgx"]
+directory = "vendor/git-6c153d5c37429b00"
+
+[source."vendor+https://github.com/mesalock-linux/gbdt-rs"]
+directory = "vendor/git-907b66c775403700"
+
+[source."vendor+https://github.com/mesalock-linux/getrandom-sgx"]
+directory = "vendor/git-3d5198400ff22b00"
+
+[source."vendor+https://github.com/mesalock-linux/gzip-header-sgx"]
+directory = "vendor/git-b43e4643ad1fff00"
+
+[source."vendor+https://github.com/mesalock-linux/hashes-sgx"]
+directory = "vendor/git-e2fac843ad703f00"
+
+[source."vendor+https://github.com/mesalock-linux/heapsize-sgx"]
+directory = "vendor/git-45aa96ddaeebd500"
+
+[source."vendor+https://github.com/mesalock-linux/http-sgx"]
+directory = "vendor/git-41b288334e082600"
+
+[source."vendor+https://github.com/mesalock-linux/humantime-sgx"]
+directory = "vendor/git-b98bc1169bb16b00"
+
+[source."vendor+https://github.com/mesalock-linux/image-gif-sgx"]
+directory = "vendor/git-03547c496c065e00"
+
+[source."vendor+https://github.com/mesalock-linux/image-png-sgx"]
+directory = "vendor/git-94e90f8e76011100"
+
+[source."vendor+https://github.com/mesalock-linux/image-sgx"]
+directory = "vendor/git-68a5d61302965100"
+
+[source."vendor+https://github.com/mesalock-linux/image-tiff-sgx"]
+directory = "vendor/git-c98e8110a4284100"
+
+[source."vendor+https://github.com/mesalock-linux/inflate-sgx"]
+directory = "vendor/git-29388903ad1c3c00"
+
+[source."vendor+https://github.com/mesalock-linux/integer-encoding-rs-sgx"]
+directory = "vendor/git-dd1b2d8170ae4c00"
+
+[source."vendor+https://github.com/mesalock-linux/inventory-sgx"]
+directory = "vendor/git-52200cc0062aa900"
+
+[source."vendor+https://github.com/mesalock-linux/iovec-sgx"]
+directory = "vendor/git-937eb37e2259be00"
+
+[source."vendor+https://github.com/mesalock-linux/itoa-sgx"]
+directory = "vendor/git-3485741168f9ac00"
+
+[source."vendor+https://github.com/mesalock-linux/jpeg-decoder-sgx"]
+directory = "vendor/git-b964cfc1f2e27900"
+
+[source."vendor+https://github.com/mesalock-linux/jsonwebtoken-sgx"]
+directory = "vendor/git-42366d93c66e7400"
+
+[source."vendor+https://github.com/mesalock-linux/linked-hash-map-sgx"]
+directory = "vendor/git-081598ae500acc00"
+
+[source."vendor+https://github.com/mesalock-linux/log-sgx"]
+directory = "vendor/git-b40750c138955b00"
+
+[source."vendor+https://github.com/mesalock-linux/lzw-sgx"]
+directory = "vendor/git-c9503bf9dfd18800"
+
+[source."vendor+https://github.com/mesalock-linux/matrixmultiply-sgx"]
+directory = "vendor/git-77e9cca5ebd72700"
+
+[source."vendor+https://github.com/mesalock-linux/md5-sgx"]
+directory = "vendor/git-21ee1bbf6007da00"
+
+[source."vendor+https://github.com/mesalock-linux/miniz_oxide-sgx"]
+directory = "vendor/git-402d3f1d6b2f7c00"
+
+[source."vendor+https://github.com/mesalock-linux/mio-sgx"]
+directory = "vendor/git-0270925764636d00"
+
+[source."vendor+https://github.com/mesalock-linux/net2-rs-sgx"]
+directory = "vendor/git-c3faba09b93f8200"
+
+[source."vendor+https://github.com/mesalock-linux/num-bigint-sgx"]
+directory = "vendor/git-62625a6e17cbd000"
+
+[source."vendor+https://github.com/mesalock-linux/num-complex-sgx"]
+directory = "vendor/git-3658a5e58242cf00"
+
+[source."vendor+https://github.com/mesalock-linux/num-integer-sgx"]
+directory = "vendor/git-2b9f4a6adc51d500"
+
+[source."vendor+https://github.com/mesalock-linux/num-iter-sgx"]
+directory = "vendor/git-fce889c95d372500"
+
+[source."vendor+https://github.com/mesalock-linux/num-rational-sgx"]
+directory = "vendor/git-e95bd68e91a85900"
+
+[source."vendor+https://github.com/mesalock-linux/num-sgx"]
+directory = "vendor/git-dc560b4dbcd16700"
+
+[source."vendor+https://github.com/mesalock-linux/num-traits-sgx"]
+directory = "vendor/git-ddb0aee1bc6b3200"
+
+[source."vendor+https://github.com/mesalock-linux/parity-wasm-sgx"]
+directory = "vendor/git-c23b5d69df4aef00"
+
+[source."vendor+https://github.com/mesalock-linux/prost-sgx"]
+directory = "vendor/git-38fe0f8636125800"
+
+[source."vendor+https://github.com/mesalock-linux/quick-error-sgx"]
+directory = "vendor/git-579f063e0ceb3700"
+
+[source."vendor+https://github.com/mesalock-linux/rand-sgx"]
+directory = "vendor/git-1a1275c4d8d2f300"
+
+[source."vendor+https://github.com/mesalock-linux/regex-sgx"]
+directory = "vendor/git-1f6b7b06ae074700"
+
+[source."vendor+https://github.com/mesalock-linux/ring-sgx"]
+directory = "vendor/git-b97d8e636e027000"
+
+[source."vendor+https://github.com/mesalock-linux/rulinalg-sgx"]
+directory = "vendor/git-5468b61ad5b70400"
+
+[source."vendor+https://github.com/mesalock-linux/rust-base64-sgx"]
+directory = "vendor/git-dd550efb7194a700"
+
+[source."vendor+https://github.com/mesalock-linux/rust-crc32fast-sgx"]
+directory = "vendor/git-263f1d8475b1fd00"
+
+[source."vendor+https://github.com/mesalock-linux/rust-fnv-sgx"]
+directory = "vendor/git-278e4661fdbcde00"
+
+[source."vendor+https://github.com/mesalock-linux/rust-hex-sgx"]
+directory = "vendor/git-8fdc3b6eee855f00"
+
+[source."vendor+https://github.com/mesalock-linux/rust-memchr-sgx"]
+directory = "vendor/git-74382230e2315000"
+
+[source."vendor+https://github.com/mesalock-linux/rust-sha1-sgx"]
+directory = "vendor/git-e28a828149592400"
+
+[source."vendor+https://github.com/mesalock-linux/rust-smallvec-sgx"]
+directory = "vendor/git-a575f2170ad83100"
+
+[source."vendor+https://github.com/mesalock-linux/rust-snappy-sgx"]
+directory = "vendor/git-8ec6d1d0ecfb5b00"
+
+[source."vendor+https://github.com/mesalock-linux/rust-std-candidates-sgx"]
+directory = "vendor/git-7864d7a37f94f900"
+
+[source."vendor+https://github.com/mesalock-linux/rust-threadpool-sgx"]
+directory = "vendor/git-4ef9b0c2a40de400"
+
+[source."vendor+https://github.com/mesalock-linux/rust-url-sgx"]
+directory = "vendor/git-cedcb3d9cf457400"
+
+[source."vendor+https://github.com/mesalock-linux/rust_rdrand-sgx"]
+directory = "vendor/git-6e365662e3da4200"
+
+[source."vendor+https://github.com/mesalock-linux/rustcrypto-traits-sgx"]
+directory = "vendor/git-e2552c8c13de6f00"
+
+[source."vendor+https://github.com/mesalock-linux/rustcrypto-utils-sgx"]
+directory = "vendor/git-84350e9040e47100"
+
+[source."vendor+https://github.com/mesalock-linux/rusty-machine-sgx"]
+directory = "vendor/git-2ca5b7aa6da21c00"
+
+[source."vendor+https://github.com/mesalock-linux/sct.rs"]
+directory = "vendor/git-558a5d2c28f03900"
+
+[source."vendor+https://github.com/mesalock-linux/serde-big-array-sgx"]
+directory = "vendor/git-d059bbe363a04e00"
+
+[source."vendor+https://github.com/mesalock-linux/serde-json-sgx"]
+directory = "vendor/git-46fbf67f5646c800"
+
+[source."vendor+https://github.com/mesalock-linux/serde-sgx"]
+directory = "vendor/git-33e35593b14fe700"
+
+[source."vendor+https://github.com/mesalock-linux/sgx-fake-profiler-builtins"]
+directory = "vendor/git-20a7bf763076dd00"
+
+[source."vendor+https://github.com/mesalock-linux/slab-sgx"]
+directory = "vendor/git-ecc3b6a328c72b00"
+
+[source."vendor+https://github.com/mesalock-linux/termcolor-sgx"]
+directory = "vendor/git-c7da7b2e8634a900"
+
+[source."vendor+https://github.com/mesalock-linux/thiserror-sgx"]
+directory = "vendor/git-8c98d34f9f8a4400"
+
+[source."vendor+https://github.com/mesalock-linux/thread_local-rs-sgx"]
+directory = "vendor/git-62e4303ed5efbb00"
+
+[source."vendor+https://github.com/mesalock-linux/toml-rs-sgx"]
+directory = "vendor/git-2e0264e710d8a400"
+
+[source."vendor+https://github.com/mesalock-linux/typetag-sgx"]
+directory = "vendor/git-3e4ffd7fdc133900"
+
+[source."vendor+https://github.com/mesalock-linux/unicode-bidi-sgx"]
+directory = "vendor/git-46b20c0c5f1dff00"
+
+[source."vendor+https://github.com/mesalock-linux/unicode-normalization-sgx"]
+directory = "vendor/git-75115e9469461b00"
+
+[source."vendor+https://github.com/mesalock-linux/uuid-sgx"]
+directory = "vendor/git-cb527cfb8257fa00"
+
+[source."vendor+https://github.com/mesalock-linux/wabt-rs-sgx"]
+directory = "vendor/git-7ebb8afcbe9d3300"
+
+[source."vendor+https://github.com/mesalock-linux/wasmi-sgx"]
+directory = "vendor/git-3b3a174d4de9d700"
+
+[source."vendor+https://github.com/mesalock-linux/webpki"]
+directory = "vendor/git-00e280c327043d00"
+
+[source."vendor+https://github.com/mesalock-linux/webpki-roots"]
+directory = "vendor/git-6d010acd12abba00"
+
+[source."vendor+https://github.com/mesalock-linux/yasna.rs-sgx"]
+directory = "vendor/git-2db49dbc02dd2500"
+
+[source."vendor+https://github.com/yilinhan/rustface-sgx"]
+directory = "vendor/git-1a3365474eb25900"
+
+[source."vendor+https://github.com/yilinhan/rustls"]
+directory = "vendor/git-75c5d074ca640a00"

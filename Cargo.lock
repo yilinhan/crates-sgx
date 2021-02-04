@@ -1,8 +1,25 @@
 [[package]]
 name = "adler32"
 version = "1.0.4"
+source = "git+https://github.com/mesalock-linux/adler32-rs-sgx?tag=sgx_1.1.3#82c9c684c765189d41b8b209f0e5f0aac92b7360"
+dependencies = [
+ "sgx_tstd 1.1.3 (git+https://github.com/apache/teaclave-sgx-sdk?rev=v1.1.3)",
+]
+
+[[package]]
+name = "adler32"
+version = "1.0.4"
 source = "git+https://github.com/mesalock-linux/adler32-rs-sgx#82c9c684c765189d41b8b209f0e5f0aac92b7360"
 dependencies = [
+ "sgx_tstd 1.1.3 (git+https://github.com/apache/teaclave-sgx-sdk?rev=v1.1.3)",
+]
+
+[[package]]
+name = "aho-corasick"
+version = "0.7.10"
+source = "git+https://github.com/mesalock-linux/aho-corasick-sgx?tag=sgx_1.1.3#7558a97cdf02804f38ec4edd1c0bb0dc2866267f"
+dependencies = [
+ "memchr 2.2.1 (git+https://github.com/mesalock-linux/rust-memchr-sgx)",
  "sgx_tstd 1.1.3 (git+https://github.com/apache/teaclave-sgx-sdk?rev=v1.1.3)",
 ]
 
@@ -18,10 +35,15 @@ dependencies = [
 [[package]]
 name = "anyhow"
 version = "1.0.28"
-source = "git+https://github.com/mesalock-linux/anyhow-sgx#9b7763f58b5dedc11f388ea9a0072049c309e27d"
+source = "git+https://github.com/mesalock-linux/anyhow-sgx?tag=sgx_1.1.3#9b7763f58b5dedc11f388ea9a0072049c309e27d"
 dependencies = [
  "sgx_tstd 1.1.3 (git+https://github.com/apache/teaclave-sgx-sdk?rev=v1.1.3)",
 ]
+
+[[package]]
+name = "anyhow"
+version = "1.0.28"
+source = "git+https://github.com/mesalock-linux/anyhow-sgx#9b7763f58b5dedc11f388ea9a0072049c309e27d"
 
 [[package]]
 name = "array_tool"
@@ -42,6 +64,14 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 name = "autocfg"
 version = "1.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "base64"
+version = "0.13.0"
+source = "git+https://github.com/mesalock-linux/rust-base64-sgx?tag=sgx_1.1.3#dc7389e10817b078f289386b3b6a852ab6c4c021"
+dependencies = [
+ "sgx_tstd 1.1.3 (git+https://github.com/apache/teaclave-sgx-sdk?rev=v1.1.3)",
+]
 
 [[package]]
 name = "base64"
@@ -182,15 +212,15 @@ dependencies = [
 name = "crates-sgx"
 version = "0.1.0"
 dependencies = [
- "adler32 1.0.4 (git+https://github.com/mesalock-linux/adler32-rs-sgx)",
- "aho-corasick 0.7.10 (git+https://github.com/mesalock-linux/aho-corasick-sgx)",
- "anyhow 1.0.28 (git+https://github.com/mesalock-linux/anyhow-sgx)",
+ "adler32 1.0.4 (git+https://github.com/mesalock-linux/adler32-rs-sgx?tag=sgx_1.1.3)",
+ "aho-corasick 0.7.10 (git+https://github.com/mesalock-linux/aho-corasick-sgx?tag=sgx_1.1.3)",
+ "anyhow 1.0.28 (git+https://github.com/mesalock-linux/anyhow-sgx?tag=sgx_1.1.3)",
  "array_tool 1.0.3 (git+https://github.com/mesalock-linux/array_tool-sgx?tag=sgx_1.1.3)",
  "assert_matches 1.4.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "base64 0.13.0 (git+https://github.com/mesalock-linux/rust-base64-sgx)",
+ "base64 0.13.0 (git+https://github.com/mesalock-linux/rust-base64-sgx?tag=sgx_1.1.3)",
  "bincode 1.1.3 (git+https://github.com/mesalock-linux/bincode-sgx?tag=v1.1.3)",
  "bit-vec 0.6.3 (registry+https://github.com/rust-lang/crates.io-index)",
- "byteorder 1.3.4 (git+https://github.com/mesalock-linux/byteorder-sgx)",
+ "byteorder 1.3.4 (git+https://github.com/mesalock-linux/byteorder-sgx?tag=sgx_1.1.3)",
  "bytes 0.5.4 (git+https://github.com/mesalock-linux/bytes-sgx?tag=sgx_1.1.3)",
  "cfg-if 0.1.10 (registry+https://github.com/rust-lang/crates.io-index)",
  "chrono 0.4.11 (git+https://github.com/mesalock-linux/chrono-sgx?tag=sgx_1.1.3)",
@@ -239,7 +269,7 @@ dependencies = [
  "ring 0.16.19 (git+https://github.com/mesalock-linux/ring-sgx?tag=v0.16.5)",
  "rulinalg 0.4.2 (git+https://github.com/mesalock-linux/rulinalg-sgx?tag=sgx_1.1.3)",
  "rustface 0.1.2 (git+https://github.com/yilinhan/rustface-sgx?branch=v1.1.3)",
- "rustls 0.16.0 (git+https://github.com/mesalock-linux/rustls?branch=mesalock_sgx-client-cert-verifier-patch)",
+ "rustls 0.16.0 (git+https://github.com/yilinhan/rustls?branch=mesalock_sgx-client-cert-verifier-patch_v1.1.3)",
  "rusty-machine 0.5.4 (git+https://github.com/mesalock-linux/rusty-machine-sgx?tag=sgx_1.1.3)",
  "sct 0.6.0 (git+https://github.com/mesalock-linux/sct.rs?branch=mesalock_sgx)",
  "serde 1.0.118 (git+https://github.com/mesalock-linux/serde-sgx?tag=sgx_1.1.3)",
@@ -482,14 +512,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 name = "hashbrown"
 version = "0.3.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-
-[[package]]
-name = "hashbrown_tstd"
-version = "0.7.1"
-source = "git+https://github.com/apache/teaclave-sgx-sdk.git?rev=v1.1.2#8f065be7a442157bf16dc7106feb795ea1c578eb"
-dependencies = [
- "autocfg 1.0.1 (registry+https://github.com/rust-lang/crates.io-index)",
-]
 
 [[package]]
 name = "hashbrown_tstd"
@@ -1239,13 +1261,13 @@ dependencies = [
 [[package]]
 name = "rustls"
 version = "0.16.0"
-source = "git+https://github.com/mesalock-linux/rustls?branch=mesalock_sgx-client-cert-verifier-patch#a3c2e842463d058783574a61d9f5007fce2f8715"
+source = "git+https://github.com/yilinhan/rustls?branch=mesalock_sgx-client-cert-verifier-patch_v1.1.3#1a81c8c9a72a9b749133b2dbe13a153a93b9a1af"
 dependencies = [
  "base64 0.13.0 (git+https://github.com/mesalock-linux/rust-base64-sgx)",
  "log 0.4.11 (git+https://github.com/mesalock-linux/log-sgx)",
  "ring 0.16.19 (git+https://github.com/mesalock-linux/ring-sgx?tag=v0.16.5)",
  "sct 0.6.0 (git+https://github.com/mesalock-linux/sct.rs?branch=mesalock_sgx)",
- "sgx_tstd 1.1.2 (git+https://github.com/apache/teaclave-sgx-sdk.git?rev=v1.1.2)",
+ "sgx_tstd 1.1.3 (git+https://github.com/apache/teaclave-sgx-sdk?rev=v1.1.3)",
  "webpki 0.21.4 (git+https://github.com/mesalock-linux/webpki?branch=mesalock_sgx)",
 ]
 
@@ -1373,11 +1395,6 @@ dependencies = [
 
 [[package]]
 name = "sgx_alloc"
-version = "1.1.2"
-source = "git+https://github.com/apache/teaclave-sgx-sdk.git?rev=v1.1.2#8f065be7a442157bf16dc7106feb795ea1c578eb"
-
-[[package]]
-name = "sgx_alloc"
 version = "1.1.3"
 source = "git+https://github.com/apache/teaclave-sgx-sdk?tag=v1.1.3#a6a172e652b4db4eaa17e4faa078fda8922abdd0"
 
@@ -1398,16 +1415,6 @@ dependencies = [
  "sgx_trts 1.1.3 (git+https://github.com/apache/teaclave-sgx-sdk?rev=v1.1.3)",
  "sgx_tstd 1.1.3 (git+https://github.com/apache/teaclave-sgx-sdk?rev=v1.1.3)",
  "sgx_types 1.1.3 (git+https://github.com/apache/teaclave-sgx-sdk?rev=v1.1.3)",
-]
-
-[[package]]
-name = "sgx_backtrace_sys"
-version = "1.1.2"
-source = "git+https://github.com/apache/teaclave-sgx-sdk.git?rev=v1.1.2#8f065be7a442157bf16dc7106feb795ea1c578eb"
-dependencies = [
- "cc 1.0.66 (registry+https://github.com/rust-lang/crates.io-index)",
- "sgx_build_helper 0.1.3 (git+https://github.com/apache/teaclave-sgx-sdk.git?rev=v1.1.2)",
- "sgx_libc 1.1.2 (git+https://github.com/apache/teaclave-sgx-sdk.git?rev=v1.1.2)",
 ]
 
 [[package]]
@@ -1434,11 +1441,6 @@ dependencies = [
 name = "sgx_build_helper"
 version = "0.1.3"
 source = "git+https://github.com/apache/teaclave-sgx-sdk?tag=v1.1.3#a6a172e652b4db4eaa17e4faa078fda8922abdd0"
-
-[[package]]
-name = "sgx_build_helper"
-version = "0.1.3"
-source = "git+https://github.com/apache/teaclave-sgx-sdk.git?rev=v1.1.2#8f065be7a442157bf16dc7106feb795ea1c578eb"
 
 [[package]]
 name = "sgx_build_helper"
@@ -1473,11 +1475,6 @@ dependencies = [
 
 [[package]]
 name = "sgx_demangle"
-version = "1.1.2"
-source = "git+https://github.com/apache/teaclave-sgx-sdk.git?rev=v1.1.2#8f065be7a442157bf16dc7106feb795ea1c578eb"
-
-[[package]]
-name = "sgx_demangle"
 version = "1.1.3"
 source = "git+https://github.com/apache/teaclave-sgx-sdk?tag=v1.1.3#a6a172e652b4db4eaa17e4faa078fda8922abdd0"
 
@@ -1485,14 +1482,6 @@ source = "git+https://github.com/apache/teaclave-sgx-sdk?tag=v1.1.3#a6a172e652b4
 name = "sgx_demangle"
 version = "1.1.3"
 source = "git+https://github.com/apache/teaclave-sgx-sdk?rev=v1.1.3#a6a172e652b4db4eaa17e4faa078fda8922abdd0"
-
-[[package]]
-name = "sgx_libc"
-version = "1.1.2"
-source = "git+https://github.com/apache/teaclave-sgx-sdk.git?rev=v1.1.2#8f065be7a442157bf16dc7106feb795ea1c578eb"
-dependencies = [
- "sgx_types 1.1.2 (git+https://github.com/apache/teaclave-sgx-sdk.git?rev=v1.1.2)",
-]
 
 [[package]]
 name = "sgx_libc"
@@ -1592,15 +1581,6 @@ dependencies = [
 
 [[package]]
 name = "sgx_tprotected_fs"
-version = "1.1.2"
-source = "git+https://github.com/apache/teaclave-sgx-sdk.git?rev=v1.1.2#8f065be7a442157bf16dc7106feb795ea1c578eb"
-dependencies = [
- "sgx_trts 1.1.2 (git+https://github.com/apache/teaclave-sgx-sdk.git?rev=v1.1.2)",
- "sgx_types 1.1.2 (git+https://github.com/apache/teaclave-sgx-sdk.git?rev=v1.1.2)",
-]
-
-[[package]]
-name = "sgx_tprotected_fs"
 version = "1.1.3"
 source = "git+https://github.com/apache/teaclave-sgx-sdk?tag=v1.1.3#a6a172e652b4db4eaa17e4faa078fda8922abdd0"
 dependencies = [
@@ -1615,15 +1595,6 @@ source = "git+https://github.com/apache/teaclave-sgx-sdk?rev=v1.1.3#a6a172e652b4
 dependencies = [
  "sgx_trts 1.1.3 (git+https://github.com/apache/teaclave-sgx-sdk?rev=v1.1.3)",
  "sgx_types 1.1.3 (git+https://github.com/apache/teaclave-sgx-sdk?rev=v1.1.3)",
-]
-
-[[package]]
-name = "sgx_trts"
-version = "1.1.2"
-source = "git+https://github.com/apache/teaclave-sgx-sdk.git?rev=v1.1.2#8f065be7a442157bf16dc7106feb795ea1c578eb"
-dependencies = [
- "sgx_libc 1.1.2 (git+https://github.com/apache/teaclave-sgx-sdk.git?rev=v1.1.2)",
- "sgx_types 1.1.2 (git+https://github.com/apache/teaclave-sgx-sdk.git?rev=v1.1.2)",
 ]
 
 [[package]]
@@ -1661,22 +1632,6 @@ dependencies = [
  "sgx_trts 1.1.3 (git+https://github.com/apache/teaclave-sgx-sdk?rev=v1.1.3)",
  "sgx_tse 1.1.3 (git+https://github.com/apache/teaclave-sgx-sdk?rev=v1.1.3)",
  "sgx_types 1.1.3 (git+https://github.com/apache/teaclave-sgx-sdk?rev=v1.1.3)",
-]
-
-[[package]]
-name = "sgx_tstd"
-version = "1.1.2"
-source = "git+https://github.com/apache/teaclave-sgx-sdk.git?rev=v1.1.2#8f065be7a442157bf16dc7106feb795ea1c578eb"
-dependencies = [
- "hashbrown_tstd 0.7.1 (git+https://github.com/apache/teaclave-sgx-sdk.git?rev=v1.1.2)",
- "sgx_alloc 1.1.2 (git+https://github.com/apache/teaclave-sgx-sdk.git?rev=v1.1.2)",
- "sgx_backtrace_sys 1.1.2 (git+https://github.com/apache/teaclave-sgx-sdk.git?rev=v1.1.2)",
- "sgx_demangle 1.1.2 (git+https://github.com/apache/teaclave-sgx-sdk.git?rev=v1.1.2)",
- "sgx_libc 1.1.2 (git+https://github.com/apache/teaclave-sgx-sdk.git?rev=v1.1.2)",
- "sgx_tprotected_fs 1.1.2 (git+https://github.com/apache/teaclave-sgx-sdk.git?rev=v1.1.2)",
- "sgx_trts 1.1.2 (git+https://github.com/apache/teaclave-sgx-sdk.git?rev=v1.1.2)",
- "sgx_types 1.1.2 (git+https://github.com/apache/teaclave-sgx-sdk.git?rev=v1.1.2)",
- "sgx_unwind 0.1.1 (git+https://github.com/apache/teaclave-sgx-sdk.git?rev=v1.1.2)",
 ]
 
 [[package]]
@@ -1721,11 +1676,6 @@ dependencies = [
 
 [[package]]
 name = "sgx_types"
-version = "1.1.2"
-source = "git+https://github.com/apache/teaclave-sgx-sdk.git?rev=v1.1.2#8f065be7a442157bf16dc7106feb795ea1c578eb"
-
-[[package]]
-name = "sgx_types"
 version = "1.1.3"
 source = "git+https://github.com/apache/teaclave-sgx-sdk?tag=v1.1.3#a6a172e652b4db4eaa17e4faa078fda8922abdd0"
 
@@ -1740,14 +1690,6 @@ version = "0.1.1"
 source = "git+https://github.com/apache/teaclave-sgx-sdk?tag=v1.1.3#a6a172e652b4db4eaa17e4faa078fda8922abdd0"
 dependencies = [
  "sgx_build_helper 0.1.3 (git+https://github.com/apache/teaclave-sgx-sdk?tag=v1.1.3)",
-]
-
-[[package]]
-name = "sgx_unwind"
-version = "0.1.1"
-source = "git+https://github.com/apache/teaclave-sgx-sdk.git?rev=v1.1.2#8f065be7a442157bf16dc7106feb795ea1c578eb"
-dependencies = [
- "sgx_build_helper 0.1.3 (git+https://github.com/apache/teaclave-sgx-sdk.git?rev=v1.1.2)",
 ]
 
 [[package]]
@@ -2090,13 +2032,17 @@ dependencies = [
 
 [metadata]
 "checksum adler32 1.0.4 (git+https://github.com/mesalock-linux/adler32-rs-sgx)" = "<none>"
+"checksum adler32 1.0.4 (git+https://github.com/mesalock-linux/adler32-rs-sgx?tag=sgx_1.1.3)" = "<none>"
 "checksum aho-corasick 0.7.10 (git+https://github.com/mesalock-linux/aho-corasick-sgx)" = "<none>"
+"checksum aho-corasick 0.7.10 (git+https://github.com/mesalock-linux/aho-corasick-sgx?tag=sgx_1.1.3)" = "<none>"
 "checksum anyhow 1.0.28 (git+https://github.com/mesalock-linux/anyhow-sgx)" = "<none>"
+"checksum anyhow 1.0.28 (git+https://github.com/mesalock-linux/anyhow-sgx?tag=sgx_1.1.3)" = "<none>"
 "checksum array_tool 1.0.3 (git+https://github.com/mesalock-linux/array_tool-sgx?tag=sgx_1.1.3)" = "<none>"
 "checksum assert_matches 1.4.0 (registry+https://github.com/rust-lang/crates.io-index)" = "695579f0f2520f3774bb40461e5adb066459d4e0af4d59d20175484fb8e9edf1"
 "checksum autocfg 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)" = "1d49d90015b3c36167a20fe2810c5cd875ad504b39cff3d4eae7977e6b7c1cb2"
 "checksum autocfg 1.0.1 (registry+https://github.com/rust-lang/crates.io-index)" = "cdb031dd78e28731d87d56cc8ffef4a8f36ca26c38fe2de700543e627f8a464a"
 "checksum base64 0.13.0 (git+https://github.com/mesalock-linux/rust-base64-sgx)" = "<none>"
+"checksum base64 0.13.0 (git+https://github.com/mesalock-linux/rust-base64-sgx?tag=sgx_1.1.3)" = "<none>"
 "checksum bincode 1.1.3 (git+https://github.com/mesalock-linux/bincode-sgx?tag=v1.1.3)" = "<none>"
 "checksum bit-vec 0.6.3 (registry+https://github.com/rust-lang/crates.io-index)" = "349f9b6a179ed607305526ca489b34ad0a41aed5f7980fa90eb03160b69598fb"
 "checksum bitflags 1.2.1 (registry+https://github.com/rust-lang/crates.io-index)" = "cf1de2fe8c75bc145a2f577add951f8134889b4795d47466a54a5c846d691693"
@@ -2136,7 +2082,6 @@ dependencies = [
 "checksum gzip-header 0.3.0 (git+https://github.com/mesalock-linux/gzip-header-sgx?tag=sgx_1.1.3)" = "<none>"
 "checksum half 1.7.1 (registry+https://github.com/rust-lang/crates.io-index)" = "62aca2aba2d62b4a7f5b33f3712cb1b0692779a56fb510499d5c0aa594daeaf3"
 "checksum hashbrown 0.3.1 (registry+https://github.com/rust-lang/crates.io-index)" = "29fba9abe4742d586dfd0c06ae4f7e73a1c2d86b856933509b269d82cdf06e18"
-"checksum hashbrown_tstd 0.7.1 (git+https://github.com/apache/teaclave-sgx-sdk.git?rev=v1.1.2)" = "<none>"
 "checksum hashbrown_tstd 0.9.0 (git+https://github.com/apache/teaclave-sgx-sdk?rev=v1.1.3)" = "<none>"
 "checksum hashbrown_tstd 0.9.0 (git+https://github.com/apache/teaclave-sgx-sdk?tag=v1.1.3)" = "<none>"
 "checksum heapsize 0.4.2 (git+https://github.com/mesalock-linux/heapsize-sgx?tag=sgx_1.1.3)" = "<none>"
@@ -2220,7 +2165,7 @@ dependencies = [
 "checksum rulinalg 0.4.2 (git+https://github.com/mesalock-linux/rulinalg-sgx)" = "<none>"
 "checksum rulinalg 0.4.2 (git+https://github.com/mesalock-linux/rulinalg-sgx?tag=sgx_1.1.3)" = "<none>"
 "checksum rustface 0.1.2 (git+https://github.com/yilinhan/rustface-sgx?branch=v1.1.3)" = "<none>"
-"checksum rustls 0.16.0 (git+https://github.com/mesalock-linux/rustls?branch=mesalock_sgx-client-cert-verifier-patch)" = "<none>"
+"checksum rustls 0.16.0 (git+https://github.com/yilinhan/rustls?branch=mesalock_sgx-client-cert-verifier-patch_v1.1.3)" = "<none>"
 "checksum rusty-machine 0.5.4 (git+https://github.com/mesalock-linux/rusty-machine-sgx?tag=sgx_1.1.3)" = "<none>"
 "checksum ryu 1.0.5 (registry+https://github.com/rust-lang/crates.io-index)" = "71d301d4193d031abdd79ff7e3dd721168a9572ef3fe51a1517aba235bd8f86e"
 "checksum sct 0.6.0 (git+https://github.com/mesalock-linux/sct.rs?branch=mesalock_sgx)" = "<none>"
@@ -2234,22 +2179,17 @@ dependencies = [
 "checksum serde_json 1.0.60 (git+https://github.com/mesalock-linux/serde-json-sgx)" = "<none>"
 "checksum serde_json 1.0.60 (git+https://github.com/mesalock-linux/serde-json-sgx?tag=sgx_1.1.3)" = "<none>"
 "checksum sgx_align_struct_attribute 1.1.3 (git+https://github.com/apache/teaclave-sgx-sdk?rev=v1.1.3)" = "<none>"
-"checksum sgx_alloc 1.1.2 (git+https://github.com/apache/teaclave-sgx-sdk.git?rev=v1.1.2)" = "<none>"
 "checksum sgx_alloc 1.1.3 (git+https://github.com/apache/teaclave-sgx-sdk?rev=v1.1.3)" = "<none>"
 "checksum sgx_alloc 1.1.3 (git+https://github.com/apache/teaclave-sgx-sdk?tag=v1.1.3)" = "<none>"
 "checksum sgx_backtrace 1.1.3 (git+https://github.com/apache/teaclave-sgx-sdk?rev=v1.1.3)" = "<none>"
-"checksum sgx_backtrace_sys 1.1.2 (git+https://github.com/apache/teaclave-sgx-sdk.git?rev=v1.1.2)" = "<none>"
 "checksum sgx_backtrace_sys 1.1.3 (git+https://github.com/apache/teaclave-sgx-sdk?rev=v1.1.3)" = "<none>"
 "checksum sgx_backtrace_sys 1.1.3 (git+https://github.com/apache/teaclave-sgx-sdk?tag=v1.1.3)" = "<none>"
-"checksum sgx_build_helper 0.1.3 (git+https://github.com/apache/teaclave-sgx-sdk.git?rev=v1.1.2)" = "<none>"
 "checksum sgx_build_helper 0.1.3 (git+https://github.com/apache/teaclave-sgx-sdk?rev=v1.1.3)" = "<none>"
 "checksum sgx_build_helper 0.1.3 (git+https://github.com/apache/teaclave-sgx-sdk?tag=v1.1.3)" = "<none>"
 "checksum sgx_cov 1.1.3 (git+https://github.com/apache/teaclave-sgx-sdk?rev=v1.1.3)" = "<none>"
 "checksum sgx_crypto_helper 1.1.3 (git+https://github.com/apache/teaclave-sgx-sdk?rev=v1.1.3)" = "<none>"
-"checksum sgx_demangle 1.1.2 (git+https://github.com/apache/teaclave-sgx-sdk.git?rev=v1.1.2)" = "<none>"
 "checksum sgx_demangle 1.1.3 (git+https://github.com/apache/teaclave-sgx-sdk?rev=v1.1.3)" = "<none>"
 "checksum sgx_demangle 1.1.3 (git+https://github.com/apache/teaclave-sgx-sdk?tag=v1.1.3)" = "<none>"
-"checksum sgx_libc 1.1.2 (git+https://github.com/apache/teaclave-sgx-sdk.git?rev=v1.1.2)" = "<none>"
 "checksum sgx_libc 1.1.3 (git+https://github.com/apache/teaclave-sgx-sdk?rev=v1.1.3)" = "<none>"
 "checksum sgx_libc 1.1.3 (git+https://github.com/apache/teaclave-sgx-sdk?tag=v1.1.3)" = "<none>"
 "checksum sgx_rand 1.1.3 (git+https://github.com/apache/teaclave-sgx-sdk?rev=v1.1.3)" = "<none>"
@@ -2261,22 +2201,17 @@ dependencies = [
 "checksum sgx_tcrypto_helper 1.1.3 (git+https://github.com/apache/teaclave-sgx-sdk?rev=v1.1.3)" = "<none>"
 "checksum sgx_tdh 1.1.3 (git+https://github.com/apache/teaclave-sgx-sdk?rev=v1.1.3)" = "<none>"
 "checksum sgx_tkey_exchange 1.1.3 (git+https://github.com/apache/teaclave-sgx-sdk?rev=v1.1.3)" = "<none>"
-"checksum sgx_tprotected_fs 1.1.2 (git+https://github.com/apache/teaclave-sgx-sdk.git?rev=v1.1.2)" = "<none>"
 "checksum sgx_tprotected_fs 1.1.3 (git+https://github.com/apache/teaclave-sgx-sdk?rev=v1.1.3)" = "<none>"
 "checksum sgx_tprotected_fs 1.1.3 (git+https://github.com/apache/teaclave-sgx-sdk?tag=v1.1.3)" = "<none>"
-"checksum sgx_trts 1.1.2 (git+https://github.com/apache/teaclave-sgx-sdk.git?rev=v1.1.2)" = "<none>"
 "checksum sgx_trts 1.1.3 (git+https://github.com/apache/teaclave-sgx-sdk?rev=v1.1.3)" = "<none>"
 "checksum sgx_trts 1.1.3 (git+https://github.com/apache/teaclave-sgx-sdk?tag=v1.1.3)" = "<none>"
 "checksum sgx_tse 1.1.3 (git+https://github.com/apache/teaclave-sgx-sdk?rev=v1.1.3)" = "<none>"
 "checksum sgx_tseal 1.1.3 (git+https://github.com/apache/teaclave-sgx-sdk?rev=v1.1.3)" = "<none>"
-"checksum sgx_tstd 1.1.2 (git+https://github.com/apache/teaclave-sgx-sdk.git?rev=v1.1.2)" = "<none>"
 "checksum sgx_tstd 1.1.3 (git+https://github.com/apache/teaclave-sgx-sdk?rev=v1.1.3)" = "<none>"
 "checksum sgx_tstd 1.1.3 (git+https://github.com/apache/teaclave-sgx-sdk?tag=v1.1.3)" = "<none>"
 "checksum sgx_tunittest 1.1.3 (git+https://github.com/apache/teaclave-sgx-sdk?rev=v1.1.3)" = "<none>"
-"checksum sgx_types 1.1.2 (git+https://github.com/apache/teaclave-sgx-sdk.git?rev=v1.1.2)" = "<none>"
 "checksum sgx_types 1.1.3 (git+https://github.com/apache/teaclave-sgx-sdk?rev=v1.1.3)" = "<none>"
 "checksum sgx_types 1.1.3 (git+https://github.com/apache/teaclave-sgx-sdk?tag=v1.1.3)" = "<none>"
-"checksum sgx_unwind 0.1.1 (git+https://github.com/apache/teaclave-sgx-sdk.git?rev=v1.1.2)" = "<none>"
 "checksum sgx_unwind 0.1.1 (git+https://github.com/apache/teaclave-sgx-sdk?rev=v1.1.3)" = "<none>"
 "checksum sgx_unwind 0.1.1 (git+https://github.com/apache/teaclave-sgx-sdk?tag=v1.1.3)" = "<none>"
 "checksum sgx_urts 1.1.3 (git+https://github.com/apache/teaclave-sgx-sdk?rev=v1.1.3)" = "<none>"
