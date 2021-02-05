@@ -5,7 +5,7 @@ aho-corasick           0.7.10
 anyhow                 1.0.28
 anyhow                 1.0.28
 array_tool             1.0.3
-assert_matches         1.4.0
+assert_matches         1.5.0
 autocfg                0.1.7
 autocfg                1.0.1
 base64                 0.13.0
@@ -56,6 +56,7 @@ httparse               1.3.5
 humantime              1.3.0
 idna                   0.2.0
 image                  0.22.4
+image                  0.22.4
 inflate                0.4.5
 inflate                0.4.5
 integer-encoding       1.0.7
@@ -89,7 +90,6 @@ miniz_oxide            0.3.5
 mio                    0.6.21
 net2                   0.2.33
 net2                   0.2.33
-num                    0.2.0
 num                    0.2.0
 num-bigint             0.2.5
 num-bigint             0.2.5

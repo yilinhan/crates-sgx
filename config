@@ -128,7 +128,7 @@ replace-with = "vendor+https://github.com/mesalock-linux/image-png-sgx"
 
 [source."https://github.com/mesalock-linux/image-sgx"]
 git = "https://github.com/mesalock-linux/image-sgx"
-tag = "sgx_1.1.3"
+branch = "master"
 replace-with = "vendor+https://github.com/mesalock-linux/image-sgx"
 
 [source."https://github.com/mesalock-linux/image-tiff-sgx"]
@@ -540,7 +540,7 @@ directory = "vendor/git-03547c496c065e00"
 directory = "vendor/git-94e90f8e76011100"
 
 [source."vendor+https://github.com/mesalock-linux/image-sgx"]
-directory = "vendor/git-68a5d61302965100"
+directory = "vendor/git-d2058f5ad01b6b00"
 
 [source."vendor+https://github.com/mesalock-linux/image-tiff-sgx"]
 directory = "vendor/git-c98e8110a4284100"
