@@ -1,126 +1,180 @@
-.sources: License not found
-git-00e280c327043d00: License not found
-git-0270925764636d00: License not found
-git-03547c496c065e00: License not found
-git-081598ae500acc00: License not found
-git-19e5a494656b5f00: License not found
-git-1a1275c4d8d2f300: License not found
-git-1a3365474eb25900: License not found
-git-1f6b7b06ae074700: License not found
-git-1fbc0d15abe2d500: License not found
-git-20063552e4ef9800: License not found
-git-20a7bf763076dd00: License not found
-git-21ee1bbf6007da00: License not found
-git-22317ba675411800: License not found
-git-22a1f2a3d8b7f300: License not found
-git-263f1d8475b1fd00: License not found
-git-278e4661fdbcde00: License not found
-git-29388903ad1c3c00: License not found
-git-2b9f4a6adc51d500: License not found
-git-2ca5b7aa6da21c00: License not found
-git-2d313d4e28bd1200: License not found
-git-2db49dbc02dd2500: License not found
-git-2e0264e710d8a400: License not found
-git-2fb91d2b1daef700: License not found
-git-305c38f1f9296300: License not found
-git-30b01a1150021800: License not found
-git-31ab6965f3fb7f00: License not found
-git-33e35593b14fe700: License not found
-git-3485741168f9ac00: License not found
-git-360bdfde8879a500: License not found
-git-3658a5e58242cf00: License not found
-git-37537d0fec16d000: License not found
-git-38fe0f8636125800: License not found
-git-3b3a174d4de9d700: License not found
-git-3c0d3ce8ad1ac400: License not found
-git-3d5198400ff22b00: License not found
-git-3e4ffd7fdc133900: License not found
-git-402d3f1d6b2f7c00: License not found
-git-41b288334e082600: License not found
-git-42366d93c66e7400: License not found
-git-426d163df185b700: License not found
-git-45aa96ddaeebd500: License not found
-git-46b20c0c5f1dff00: License not found
-git-46fbf67f5646c800: License not found
-git-4706dca1cd865700: License not found
-git-49458cc83b8a8f00: License not found
-git-4b73cf0e1f7ca500: License not found
-git-4ef9b0c2a40de400: License not found
-git-52200cc0062aa900: License not found
-git-53b081ef9af36b00: License not found
-git-545524450b941d00: License not found
-git-5468b61ad5b70400: License not found
-git-549cf768cfff5900: License not found
-git-558a5d2c28f03900: License not found
-git-57823b8cff886000: License not found
-git-579f063e0ceb3700: License not found
-git-5887c8c3bfa03b00: License not found
-git-599eac2174ea1000: License not found
-git-5ccf90e85285a100: License not found
-git-5dd45a89fcbb6500: License not found
-git-62625a6e17cbd000: License not found
-git-62e4303ed5efbb00: License not found
-git-66f56e572b39d900: License not found
-git-68a5d61302965100: License not found
-git-6c153d5c37429b00: License not found
-git-6c78cd13f0fcef00: License not found
-git-6d010acd12abba00: License not found
-git-6e365662e3da4200: License not found
-git-74382230e2315000: License not found
-git-75115e9469461b00: License not found
-git-75c5d074ca640a00: License not found
-git-77e9cca5ebd72700: License not found
-git-7864d7a37f94f900: License not found
-git-79be6e392e0d5e00: License not found
-git-7b8a8667b86a2300: License not found
-git-7c4bf9bf7f2e5c00: License not found
-git-7ebb8afcbe9d3300: License not found
-git-7f715c514f032d00: License not found
-git-84350e9040e47100: License not found
-git-89c11435e6d25f00: License not found
-git-8c98d34f9f8a4400: License not found
-git-8ec6d1d0ecfb5b00: License not found
-git-8fdc3b6eee855f00: License not found
-git-8ffbcd602aab9900: License not found
-git-907b66c775403700: License not found
-git-937eb37e2259be00: License not found
-git-94960f89ebb29500: License not found
-git-94e90f8e76011100: License not found
-git-9736288873ae7a00: License not found
-git-9a6acca064adbd00: License not found
-git-9d03948a803fe500: License not found
-git-a1055ffac1fcff00: License not found
-git-a575f2170ad83100: License not found
-git-a6439de171dfb900: License not found
-git-ab49b288959d2c00: License not found
-git-b40750c138955b00: License not found
-git-b43e4643ad1fff00: License not found
-git-b6a0bc721002a400: License not found
-git-b964cfc1f2e27900: License not found
-git-b97d8e636e027000: License not found
-git-b98bc1169bb16b00: License not found
-git-c23b5d69df4aef00: License not found
-git-c3faba09b93f8200: License not found
-git-c6b37a8f76c12200: License not found
-git-c7da7b2e8634a900: License not found
-git-c9503bf9dfd18800: License not found
-git-c98e8110a4284100: License not found
-git-cb527cfb8257fa00: License not found
-git-cedcb3d9cf457400: License not found
-git-d059bbe363a04e00: License not found
-git-d2058f5ad01b6b00: License not found
-git-dc560b4dbcd16700: License not found
-git-dd1b2d8170ae4c00: License not found
-git-dd550efb7194a700: License not found
-git-ddb0aee1bc6b3200: License not found
-git-e048d98f2aa16f00: License not found
-git-e1f02bfff186ad00: License not found
-git-e2552c8c13de6f00: License not found
-git-e28a828149592400: License not found
-git-e2fac843ad703f00: License not found
-git-e842ae85e8a77b00: License not found
-git-e95bd68e91a85900: License not found
-git-ecc3b6a328c72b00: License not found
-git-f67e7abc1ab84900: License not found
-git-fce889c95d372500: License not found
-registry-40351f815f426200: License not found
+adler32: Zlib
+aho-corasick: Unlicense/MIT
+anyhow: MIT OR Apache-2.0
+array_tool: MIT OR Apache-2.0
+assert_matches: MIT/Apache-2.0
+autocfg-0.1.7: Apache-2.0/MIT
+autocfg: Apache-2.0 OR MIT
+base64: MIT/Apache-2.0
+bincode: MIT
+bitflags: MIT/Apache-2.0
+bit-vec: MIT/Apache-2.0
+block-buffer: MIT OR Apache-2.0
+block-padding: MIT OR Apache-2.0
+byteorder: Unlicense OR MIT
+bytes: MIT
+byte-tools: MIT OR Apache-2.0
+cc: MIT/Apache-2.0
+cfg-if: MIT/Apache-2.0
+chrono: MIT/Apache-2.0
+color_quant: MIT
+crc32fast: MIT OR Apache-2.0
+crc: MIT OR Apache-2.0
+ctor: Apache-2.0 OR MIT
+deflate: MIT/Apache-2.0
+digest: MIT OR Apache-2.0
+either: MIT/Apache-2.0
+env_logger: MIT/Apache-2.0
+erased-serde: MIT OR Apache-2.0
+fake-simd: MIT/Apache-2.0
+fnv: Apache-2.0 / MIT
+gbdt: Apache-2.0
+generic-array: MIT
+getrandom: MIT OR Apache-2.0
+ghost: MIT OR Apache-2.0
+gif: MIT/Apache-2.0
+gzip-header: MIT/Apache-2.0
+half: MIT/Apache-2.0
+hashbrown: Apache-2.0/MIT
+hashbrown_tstd: Apache-2.0/MIT
+heapsize: MIT/Apache-2.0
+hex: MIT OR Apache-2.0
+httparse: MIT/Apache-2.0
+http: MIT/Apache-2.0
+humantime: MIT/Apache-2.0
+idna: MIT/Apache-2.0
+image: MIT
+inflate: MIT
+integer-encoding: see license file at integer-encoding/LICENSE
+inventory-0.1.5: MIT OR Apache-2.0
+inventory-impl-0.1.5: MIT OR Apache-2.0
+inventory-impl: MIT OR Apache-2.0
+inventory: MIT OR Apache-2.0
+iovec: MIT/Apache-2.0
+itertools-0.8.2: MIT/Apache-2.0
+itertools: MIT/Apache-2.0
+itoa: MIT OR Apache-2.0
+jpeg-decoder: MIT / Apache-2.0
+jsonwebtoken: MIT
+lazy_static: MIT/Apache-2.0
+libc: MIT OR Apache-2.0
+linked-hash-map: MIT/Apache-2.0
+log: MIT OR Apache-2.0
+lzw: MIT/Apache-2.0
+matches: MIT
+matrixmultiply: MIT/Apache-2.0
+md5: Apache-2.0/MIT
+memchr: Unlicense/MIT
+memory_units: MPL-2.0
+miniz_oxide: MIT
+mio: MIT
+net2: MIT/Apache-2.0
+num-bigint: MIT/Apache-2.0
+num-complex: MIT/Apache-2.0
+num-integer: MIT/Apache-2.0
+num-iter: MIT/Apache-2.0
+num: MIT/Apache-2.0
+num-rational: MIT/Apache-2.0
+num-traits: MIT/Apache-2.0
+once_cell: MIT OR Apache-2.0
+opaque-debug: MIT OR Apache-2.0
+parity-wasm: MIT/Apache-2.0
+pem: MIT
+percent-encoding: MIT/Apache-2.0
+png: MIT OR Apache-2.0
+ppv-lite86: MIT/Apache-2.0
+proc-macro2-0.4.30: MIT/Apache-2.0
+proc-macro2: MIT OR Apache-2.0
+profiler_builtins: License not found
+prost: Apache-2.0
+prost-derive: Apache-2.0
+quick-error: MIT/Apache-2.0
+quote-0.3.15: MIT/Apache-2.0
+quote-0.6.13: MIT OR Apache-2.0
+quote: MIT OR Apache-2.0
+rand_chacha: MIT OR Apache-2.0
+rand_core-0.4.2: MIT/Apache-2.0
+rand_core: MIT OR Apache-2.0
+rand: MIT OR Apache-2.0
+rawpointer: MIT/Apache-2.0
+rdrand: ISC
+regex: MIT OR Apache-2.0
+regex-syntax: MIT/Apache-2.0
+ring-0.13.5: see license file at ring-0.13.5/LICENSE
+ring: see license file at ring/LICENSE
+rulinalg: MIT
+rustface: BSD-2-Clause
+rustls: Apache-2.0/ISC/MIT
+rusty-machine: MIT
+ryu: Apache-2.0 OR BSL-1.0
+sct-0.4.0: Apache-2.0/ISC/MIT
+sct: Apache-2.0/ISC/MIT
+serde-big-array: MIT OR Apache-2.0
+serde_cbor: MIT/Apache-2.0
+serde_derive: MIT OR Apache-2.0
+serde_json: MIT OR Apache-2.0
+serde: MIT OR Apache-2.0
+sgx_align_struct_attribute: see license file at sgx_align_struct_attribute/LICENSE
+sgx_alloc: see license file at sgx_alloc/LICENSE
+sgx_backtrace: see license file at sgx_backtrace/LICENSE
+sgx_backtrace_sys: see license file at sgx_backtrace_sys/LICENSE
+sgx_build_helper: see license file at sgx_build_helper/LICENSE
+sgx_cov: see license file at sgx_cov/LICENSE
+sgx_crypto_helper: see license file at sgx_crypto_helper/LICENSE
+sgx_demangle: see license file at sgx_demangle/LICENSE
+sgx_libc: see license file at sgx_libc/LICENSE
+sgx_rand_derive: see license file at sgx_rand_derive/LICENSE
+sgx_rand: see license file at sgx_rand/LICENSE
+sgx_serialize_derive_internals: see license file at sgx_serialize_derive_internals/LICENSE
+sgx_serialize_derive: see license file at sgx_serialize_derive/LICENSE
+sgx_serialize: see license file at sgx_serialize/LICENSE
+sgx_tcrypto_helper: see license file at sgx_tcrypto_helper/LICENSE
+sgx_tcrypto: see license file at sgx_tcrypto/LICENSE
+sgx_tdh: see license file at sgx_tdh/LICENSE
+sgx_tkey_exchange: see license file at sgx_tkey_exchange/LICENSE
+sgx_tprotected_fs: see license file at sgx_tprotected_fs/LICENSE
+sgx_trts: see license file at sgx_trts/LICENSE
+sgx_tseal: see license file at sgx_tseal/LICENSE
+sgx_tse: see license file at sgx_tse/LICENSE
+sgx_tstd: see license file at sgx_tstd/LICENSE
+sgx_tunittest: see license file at sgx_tunittest/LICENSE
+sgx_types: see license file at sgx_types/LICENSE
+sgx_unwind: see license file at sgx_unwind/LICENSE
+sgx_urts: see license file at sgx_urts/LICENSE
+sha1: BSD-3-Clause
+sha-1: MIT OR Apache-2.0
+sha2: MIT OR Apache-2.0
+simple_asn1: ISC
+slab: MIT
+smallvec: MIT/Apache-2.0
+snap: BSD-3-Clause
+spin: MIT
+syn-0.11.11: MIT/Apache-2.0
+syn-0.15.44: MIT OR Apache-2.0
+syn: MIT OR Apache-2.0
+synom: MIT/Apache-2.0
+termcolor: Unlicense OR MIT
+thiserror-impl: MIT OR Apache-2.0
+thiserror: MIT OR Apache-2.0
+thread_local: Apache-2.0/MIT
+threadpool: MIT/Apache-2.0
+tiff: MIT
+toml: MIT/Apache-2.0
+typenum: MIT/Apache-2.0
+typetag-impl: MIT OR Apache-2.0
+typetag: MIT OR Apache-2.0
+unicode-bidi: MIT / Apache-2.0
+unicode-normalization: MIT/Apache-2.0
+unicode-xid-0.0.4: MIT/Apache-2.0
+unicode-xid-0.1.0: MIT/Apache-2.0
+unicode-xid: MIT OR Apache-2.0
+untrusted-0.6.2: ISC
+untrusted: ISC
+url: MIT/Apache-2.0
+uuid: Apache-2.0 OR MIT
+wabt: Apache-2.0
+wasmi: MIT/Apache-2.0
+wasmi-validation: MIT/Apache-2.0
+webpki-roots: MPL-2.0
+webpki: see license file at webpki/LICENSE
+yasna: MIT/Apache-2.0
