@@ -1,1 +1,11 @@
 target
+
+# Compile intermediate files
+vendor/sgx_unwind/libunwind/INSTALL
+vendor/sgx_unwind/libunwind/Makefile.in
+vendor/sgx_unwind/libunwind/aclocal.m4
+vendor/sgx_unwind/libunwind/autom4te.cache/
+vendor/sgx_unwind/libunwind/config/
+vendor/sgx_unwind/libunwind/configure
+vendor/sgx_unwind/libunwind/include/config.h.in
+vendor/sgx_unwind/libunwind/src/Makefile.in
